@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string name;
+    int dob;
+    char food;
+    char drink;
+
+    cout << "Enter Name: ";
+    cin >> name;
+    cout << "Enter Date of Birth: ";
+    cin >> dob;
+    cout << "Please select a Food: A. Buger, B. Spag, C. Pizza, D. Fries, E. Chicken" << endl;
+    cout << "Enter the letter for your food: ";
+    cin >> food;
+    cout << "Please select a Food: A. Pepsi, B. Sprite, C. Coke, D. Water, E. Ice Tea" << endl;
+    cout << "Enter the letter for your food: ";
+    cin >> drink;
+    cout << "Your Choice is FOOD LETTER " << food << endl;
+    cout << "Your Choice is DRINK LETTER " << drink;
+     
+
+    
+
+  
+
+   
+}
